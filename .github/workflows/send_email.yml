@@ -1,0 +1,57 @@
+name: 寄送世足分析信
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**_分析.html'
+      - '**_檢討.html'
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 找出最新的 HTML 檔
+        id: find_file
+        run: |
+          LATEST=$(git diff-tree --no-commit-id -r --name-only ${{ github.sha }} | grep -E '_分析\.html|_檢討\.html' | head -1)
+          echo "file=$LATEST" >> $GITHUB_OUTPUT
+          if echo "$LATEST" | grep -q '_分析'; then
+            echo "subject=【世足分析】台灣時間 $(TZ='Asia/Taipei' date +%m/%d) 賽程預測" >> $GITHUB_OUTPUT
+          else
+            echo "subject=【世足檢討】台灣時間 $(TZ='Asia/Taipei' date +%m/%d) 賽後分析報告" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 寄送 Email
+        run: |
+          python3 - << 'PYEOF'
+          import smtplib, os
+          from email.mime.text import MIMEText
+          from email.mime.multipart import MIMEMultipart
+
+          filepath = os.environ['FILE']
+          subject = os.environ['SUBJECT']
+
+          with open(filepath, 'r', encoding='utf-8') as f:
+              html = f.read()
+
+          msg = MIMEMultipart('alternative')
+          msg['Subject'] = subject
+          msg['From'] = os.environ['GMAIL_USER']
+          msg['To'] = os.environ['GMAIL_USER']
+          msg.attach(MIMEText(html, 'html', 'utf-8'))
+
+          with smtplib.SMTP('smtp.gmail.com', 587) as s:
+              s.starttls()
+              s.login(os.environ['GMAIL_USER'], os.environ['GMAIL_PASS'])
+              s.sendmail(os.environ['GMAIL_USER'], os.environ['GMAIL_USER'], msg.as_string())
+
+          print('Email 寄出成功')
+          PYEOF
+        env:
+          FILE: ${{ steps.find_file.outputs.file }}
+          SUBJECT: ${{ steps.find_file.outputs.subject }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
