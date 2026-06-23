@@ -1,289 +1,136 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<style>
-body{font-family:Arial,sans-serif;max-width:680px;margin:0 auto;color:#333}
-h1{background:#1a1a2e;color:white;padding:16px 20px;border-radius:8px;font-size:18px}
-h2{color:#1a1a2e;border-left:4px solid #27ae60;padding-left:10px;margin-top:28px;font-size:16px}
-h2.bad{border-left-color:#e74c3c}
-h2.ok{border-left-color:#f39c12}
-table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
-th{background:#1a1a2e;color:white;padding:8px 12px;text-align:left}
-td{padding:7px 12px;border-bottom:1px solid #eee}
-tr:nth-child(even){background:#f9f9f9}
-.result{font-size:22px;font-weight:bold;color:#1a1a2e;text-align:center;padding:12px;background:#f0f4ff;border-radius:6px;margin:8px 0}
-.hit{color:#27ae60;font-weight:bold}
-.miss{color:#e74c3c;font-weight:bold}
-.partial{color:#f39c12;font-weight:bold}
-.review-box{background:#f5fff5;border:1px solid #b2dfdb;border-radius:6px;padding:12px 16px;margin:10px 0;font-size:13px;line-height:1.6}
-.review-box.warning{background:#fff8e1;border-color:#ffe082}
-.review-box.alert{background:#ffeaea;border-color:#ef9a9a}
-.score-banner{font-size:28px;font-weight:bold;text-align:center;color:#1a1a2e;padding:8px 0}
-.footer{font-size:12px;color:#aaa;text-align:center;margin-top:20px;padding-top:12px;border-top:1px solid #eee}
-.total-box{background:#1a1a2e;color:white;border-radius:8px;padding:14px 18px;margin-top:24px}
-.total-box td{border-bottom:1px solid #333;color:#eee}
-.total-box th{background:#0d0d1a}
-.perfect{background:#e8f5e9;border:2px solid #27ae60;border-radius:6px;padding:12px 16px;margin:10px 0;font-size:13px}
-</style>
-</head>
-<body>
+<!DOCTYPE html><html><head><meta charset="utf-8"></head><body style="font-family:Arial,sans-serif;max-width:700px;margin:0 auto;color:#333;background:#f5f5f5;padding:16px">
 
-<h1>📊 世足檢討｜台灣時間 06/23 賽後分析報告</h1>
-
-<p style="color:#666;font-size:13px;margin:-4px 0 20px 0">
-  依據 0623_分析.html 賽前預測 vs 實際結果對比 ｜
-  自動產生於台灣時間 2026-06-23 14:30
-</p>
+<div style="background:#1a1a2e;color:white;padding:16px 20px;border-radius:8px;font-size:18px;font-weight:bold;margin-bottom:20px">📊 賽後檢討｜台灣時間 06/23</div>
 
 <div style="background:#e8f5e9;border:2px solid #27ae60;border-radius:8px;padding:12px 18px;margin-bottom:20px;font-size:14px">
-  🏆 <strong>今日亮眼成績：勝負全中 4/4 ✅ ｜ BTTS全中 4/4 ✅</strong><br>
-  🎯 阿爾及利亞 2-1 約旦：比分完全命中！梅西打破世界盃進球紀錄（第17、18球）。法國因費城暴風雨延賽 2 小時，為世界盃史上首次天氣延賽。
+  🏆 <strong>今日亮眼成績：勝負全中 4/4 ✅ ｜ BTTS 全中 4/4 ✅ ｜ 比分 3/4 ✅</strong><br>
+  🎯 阿爾及利亞 2-1 約旦：比分完全命中！梅西打破世界盃史上最多進球紀錄（第 17、18 球）。法國因費城暴風雨延賽逾 2 小時，為世界盃史上首次天氣延賽。
 </div>
 
 <!-- ====== 場次一 ====== -->
-<h2>⚽ 場次一｜阿根廷 2:0 奧地利｜J組</h2>
-<div class="result">🇦🇷 阿根廷 2 : 0 奧地利 🇦🇹</div>
-
-<p style="font-size:14px;margin:6px 0 12px 0">
-  ⚽ 進球者：<strong>Lionel Messi</strong>（38'，Almada 讓球 + Medina 助攻）、<strong>Messi</strong>（90+5'，禁區混戰，晃過四人得分）<br>
-  ❌ Messi 上半場罰球失準（錯失追加第三球機會）<br>
-  🏆 <strong>歷史時刻：</strong>Messi 完成世界盃史上第 17、18 球，超越 Klose 成為世界盃史上最多進球球員！<br>
-  奧地利上半場零射正
-</p>
-
-<table>
-  <tr><th>項目</th><th>賽前預測</th><th>實際結果</th><th>結果</th></tr>
-  <tr>
-    <td>勝負</td>
-    <td>阿根廷勝（65%）</td>
-    <td>阿根廷勝</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>大小分（2.5）</td>
-    <td>大分（65%）</td>
-    <td>2球 小分</td>
-    <td class="miss">❌ 失準</td>
-  </tr>
-  <tr>
-    <td>BTTS</td>
-    <td>否偏多（53%）</td>
-    <td>否（奧地利0球）</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>比分</td>
-    <td>2-1（30%）、3-0（22%）、<strong>2-0（18%）</strong></td>
-    <td>2-0</td>
-    <td class="partial">✅ 有預測（第三選項）</td>
-  </tr>
-</table>
-
-<div class="review-box warning">
-  <strong>🧠 檢討：方向正確，但大小分研判失準——梅西罰球是關鍵。</strong><br>
-  ✅ 阿根廷勝、BTTS否，兩項命中。2-0 比分在預測清單內（第三順位 18%），算有預測到。<br>
-  ❌ 大分（2.5）失準：若 Messi 罰球進，3-0 大分達標。罰球失準是本場小分的最大原因。<br>
-  ⚠️ 奧地利的策略是完全龜縮防守（上半場零射正），不試圖進攻，導致比分低迷——賽前雖提到奧地利進攻，但實際奧地利賭博式棄攻。<br>
-  📌 <strong>重要記憶：① Messi 現在是世界盃史上最多進球球員（18球），後續比賽他的進球潛力只升不降。② 阿根廷對強壓陣時，對手棄攻反而限制大分空間。</strong>
+<div style="background:white;border-radius:10px;padding:20px;margin-bottom:20px;box-shadow:0 2px 6px rgba(0,0,0,0.08)">
+  <h2 style="color:#1a1a2e;border-left:4px solid #27ae60;padding-left:10px;font-size:16px;margin-top:0">⚽ 場次一｜阿根廷 vs 奧地利｜J 組</h2>
+  <div style="font-size:28px;font-weight:bold;color:#1a1a2e;text-align:center;padding:16px;background:#f0f4ff;border-radius:8px;margin:12px 0">🇦🇷 阿根廷 2 : 0 奧地利 🇦🇹</div>
+  <p style="font-size:14px;margin:8px 0">
+    ⚽ <strong>進球者：</strong>Lionel Messi（38'，Almada 讓球 + Medina 助攻）、Messi（90+5'，禁區混戰晃過四人得分）<br>
+    ❌ Messi 上半場罰球失準（錯失追加第三球機會）<br>
+    🏆 <strong>歷史時刻：</strong>Messi 世界盃第 17、18 球，超越 Klose 成史上最多進球球員！
+  </p>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:14px">
+    <tr><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">項目</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">賽前預測</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">實際結果</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">結果</th></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">勝負</td><td style="padding:7px 12px;border-bottom:1px solid #eee">阿根廷勝（65%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">阿根廷勝</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">大小分（2.5）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">大分（65%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">2 球 = 小分</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#e74c3c;font-weight:bold">✖ 失準</td></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">BTTS</td><td style="padding:7px 12px;border-bottom:1px solid #eee">否偏多（53%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">否（奧地利 0 球）</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">比分預測</td><td style="padding:7px 12px;border-bottom:1px solid #eee">2:1（30%）、3:0（22%）、<strong>2:0（18%）</strong></td><td style="padding:7px 12px;border-bottom:1px solid #eee">2-0</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 有預測（第三選項）</td></tr>
+  </table>
+  <div style="background:#e8f5e9;border-left:4px solid #27ae60;padding:10px 14px;border-radius:4px;font-size:14px;margin:8px 0">
+    🧠 <strong>檢討：</strong>方向正確，但大小分研判失準——梅西罰球是關鍵。若 Messi 罰球進，3-0 大分即達標。奧地利完全龜縮防守（上半場零射正），棄攻策略壓縮了大分空間。<br>
+    📌 重要記憶：① Messi 現在是史上世界盃最多進球（18球），進球潛力只升不降。② 面對完全龜縮對手，需調低大分預測。
+  </div>
 </div>
 
 <!-- ====== 場次二 ====== -->
-<h2>⚽ 場次二｜法國 3:0 伊拉克｜I組</h2>
-<div class="result">🇫🇷 法國 3 : 0 伊拉克 🇮🇶</div>
-
-<p style="font-size:14px;margin:6px 0 12px 0">
-  ⚽ 進球者：<strong>Kylian Mbappé</strong>（14'，Olise 助攻左腳弧線遠射）、<strong>Mbappé</strong>（下半場，伊拉克門將傳球失誤，Dembele 傳球，Mbappé 推射）、<strong>Ousmane Dembele</strong}（下半場，Olise 傳球後推射左角）<br>
-  ⛈️ <strong>世界盃史上首次！</strong> 費城雷暴，中場休息延賽逾 2 小時。<br>
-  📊 Mbappé 本屆世界盃已 4 球，生涯 16 球（距 Messi 紀錄 2 球差）
-</p>
-
-<table>
-  <tr><th>項目</th><th>賽前預測</th><th>實際結果</th><th>結果</th></tr>
-  <tr>
-    <td>勝負</td>
-    <td>法國勝（88.5%）</td>
-    <td>法國勝</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>大小分（3.5）</td>
-    <td>大分 50%+</td>
-    <td>3球 未達 3.5 = 小分</td>
-    <td class="miss">❌ 失準（差半球）</td>
-  </tr>
-  <tr>
-    <td>BTTS</td>
-    <td>爭議（Opta 28%，市場熱押）</td>
-    <td>否（伊拉克0球）</td>
-    <td class="hit">✅ Opta 正確</td>
-  </tr>
-  <tr>
-    <td>比分</td>
-    <td>4-0（20%）、<strong>3-0（18%）</strong>、5-1（15%）</td>
-    <td>3-0</td>
-    <td class="partial">✅ 有預測（第二選項）</td>
-  </tr>
-</table>
-
-<div class="review-box warning">
-  <strong>🧠 檢討：比分方向極準，大小分盤口差半球。</strong><br>
-  ✅ 3-0 是預測第二選項（18%），算命中。法國清零（BTTS否）與 Opta 28% 一致，市場的 BTTS 熱押反而錯了。<br>
-  ❌ 3.5 盤差了半球——法國進 3 球但未達 4 球。中場延賽 2 小時後，法國似乎有所保留。<br>
-  ⚠️ 暴風雨延賽是完全無法預測的變數，可能影響了法國第二節的節奏感與進球機率。<br>
-  📌 <strong>重要記憶：① 法國對弱隊時 3.5 盤高風險，3球可能就是上限（不像西班牙會持續刷分）。② 賽前對 BTTS 爭議，最終 Opta 的低機率（28%）正確——下次此類分歧信 Opta 更多。</strong>
+<div style="background:white;border-radius:10px;padding:20px;margin-bottom:20px;box-shadow:0 2px 6px rgba(0,0,0,0.08)">
+  <h2 style="color:#1a1a2e;border-left:4px solid #27ae60;padding-left:10px;font-size:16px;margin-top:0">⚽ 場次二｜法國 vs 伊拉克｜I 組</h2>
+  <div style="font-size:28px;font-weight:bold;color:#1a1a2e;text-align:center;padding:16px;background:#f0f4ff;border-radius:8px;margin:12px 0">🇫🇷 法國 3 : 0 伊拉克 🇮🇶</div>
+  <p style="font-size:14px;margin:8px 0">
+    ⚽ <strong>進球者：</strong>Kylian Mbappé（14'，Olise 助攻左腳弧線遠射）、Mbappé（下半場，伊拉克門將傳球失誤後補射）、Ousmane Dembélé（下半場，Olise 傳球後推射）<br>
+    ⛈️ <strong>世界盃史上首次！</strong>費城雷暴，中場休息延賽逾 2 小時<br>
+    📊 Mbappé 本屆累計 4 球，生涯 16 球（距 Messi 歷史紀錄僅 2 球）
+  </p>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:14px">
+    <tr><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">項目</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">賽前預測</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">實際結果</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">結果</th></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">勝負</td><td style="padding:7px 12px;border-bottom:1px solid #eee">法國勝（88.5%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">法國勝</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">大小分（3.5）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">大分 50%+</td><td style="padding:7px 12px;border-bottom:1px solid #eee">3 球 未達 3.5 = 小分</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#e74c3c;font-weight:bold">✖ 失準（差半球）</td></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">BTTS</td><td style="padding:7px 12px;border-bottom:1px solid #eee">爭議（Opta 28%，市場熱押 YES）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">否（伊拉克 0 球）</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ Opta 正確</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">比分預測</td><td style="padding:7px 12px;border-bottom:1px solid #eee">4:0（20%）、<strong>3:0（18%）</strong>、5:1（15%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">3-0</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 有預測（第二選項）</td></tr>
+  </table>
+  <div style="background:#e8f5e9;border-left:4px solid #27ae60;padding:10px 14px;border-radius:4px;font-size:14px;margin:8px 0">
+    🧠 <strong>檢討：</strong>比分方向極準，大小分盤口差半球。3-0 是預測第二選項（18%）命中。法國清零與 Opta 28% 一致，市場熱押 BTTS 反而錯了。暴風雨延賽 2 小時是完全無法預測的變數，影響了第二節節奏與進球機率。<br>
+    📌 重要記憶：① 法國對弱隊偏 3 球上限，3.5 盤高風險。② Opta vs 市場分歧時，下次更信 Opta。
+  </div>
 </div>
 
 <!-- ====== 場次三 ====== -->
-<h2>⚽ 場次三｜挪威 3:2 塞內加爾｜I組</h2>
-<div class="result">🇳🇴 挪威 3 : 2 塞內加爾 🇸🇳</div>
-
-<p style="font-size:14px;margin:6px 0 12px 0">
-  ⚽ 進球者：<br>
-  挪威：<strong>Marcus Pedersen</strong>（43'，Koulibaly+Mendy 失誤後得球破門）、<strong>Erling Haaland</strong>（48'，遠射攻頂入網，挪威世界盃隊史最多進球）、<strong>Haaland</strong>（58'，近距離補射）<br>
-  塞內加爾：<strong>Ismaila Sarr</strong>（53'，Mane 助攻後單射）、<strong>Sarr</strong>（93'，二度追近但終未完成逆轉）<br>
-  Sarr 傷停時間射門高過橫樑，挪威驚險守住
-</p>
-
-<table>
-  <tr><th>項目</th><th>賽前預測</th><th>實際結果</th><th>結果</th></tr>
-  <tr>
-    <td>勝負</td>
-    <td>挪威勝（45%）</td>
-    <td>挪威勝</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>大小分（2.5）</td>
-    <td>大分（61%）</td>
-    <td>5球 大分</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>BTTS</td>
-    <td>是（52%）3/4賠率</td>
-    <td>是（雙方各進球）</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>比分</td>
-    <td>2-1挪威（28%）、3-1挪威（10%）</td>
-    <td>3-2</td>
-    <td class="partial">✅ 接近（3-1 接近）</td>
-  </tr>
-</table>
-
-<div class="review-box">
-  <strong>🧠 檢討：本場分析最準，三項全中。</strong><br>
-  ✅ 大分 + BTTS + 挪威勝，完全命中。賽前指出「挪威後防有漏洞，塞內加爾有進球能力」——Sarr 兩球驗證。<br>
-  ✅ 預測「BTTS 3/4 是今日最有根據選項」——事後看完全正確！<br>
-  ✅ Haaland 進球（9/10）確定推薦也實現（進了2球！）。<br>
-  ⚠️ 3-2 比 3-1 多了塞內加爾1球；結局更刺激，Sarr 傷停時間射門如果進去就是 3-3 平局——挪威運氣也好一點。<br>
-  📌 <strong>重要記憶：挪威後防確實漏洞大（2球失球），大分 + BTTS 是挪威比賽的標準規律，下次可直接套用。Haaland 2本屆累積 4 球，是本屆進球王競爭者。</strong>
+<div style="background:white;border-radius:10px;padding:20px;margin-bottom:20px;box-shadow:0 2px 6px rgba(0,0,0,0.08)">
+  <h2 style="color:#1a1a2e;border-left:4px solid #27ae60;padding-left:10px;font-size:16px;margin-top:0">⚽ 場次三｜挪威 vs 塞內加爾｜I 組</h2>
+  <div style="font-size:28px;font-weight:bold;color:#1a1a2e;text-align:center;padding:16px;background:#f0f4ff;border-radius:8px;margin:12px 0">🇳🇴 挪威 3 : 2 塞內加爾 🇸🇳</div>
+  <p style="font-size:14px;margin:8px 0">
+    ⚽ <strong>進球者：</strong><br>
+    挪威：Marcus Pedersen（43'，門將失誤後破門）、Erling Haaland（48'，頭槌入網）、Haaland（58'，近距離補射）<br>
+    塞內加爾：Ismaila Sarr（53'，Mané 助攻單射）、Sarr（90+3'，傷停追近但未完成逆轉）<br>
+    🔥 Sarr 傷停射門高過橫樑，挪威驚險守住！Haaland 本屆累計 4 球
+  </p>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:14px">
+    <tr><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">項目</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">賽前預測</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">實際結果</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">結果</th></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">勝負</td><td style="padding:7px 12px;border-bottom:1px solid #eee">挪威勝（45%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">挪威勝</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">大小分（2.5）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">大分（61%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">5 球 大分</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">BTTS</td><td style="padding:7px 12px;border-bottom:1px solid #eee">是（52%）3/4 賠率</td><td style="padding:7px 12px;border-bottom:1px solid #eee">是（雙方各進球）</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">比分預測</td><td style="padding:7px 12px;border-bottom:1px solid #eee">2:1 挪威（28%）、3:1 挪威（10%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">3-2</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#e74c3c;font-weight:bold">✖ 接近但未命中</td></tr>
+  </table>
+  <div style="background:#e8f5e9;border-left:4px solid #27ae60;padding:10px 14px;border-radius:4px;font-size:14px;margin:8px 0">
+    🧠 <strong>檢討：</strong>本場分析最準，三項全中（勝負 + 大分 + BTTS）！賽前指出「挪威後防漏洞 + 塞內加爾有進球能力」——Sarr 兩球完全驗證。BTTS 3/4 推薦事後看完全正確。比分 3-2 比預測 2-1 多一顆，Sarr 傷停差點成就 3-3 逆轉。<br>
+    📌 重要記憶：挪威比賽 = 大分 + BTTS 標配。Haaland 4 球領跑本屆進球王。
+  </div>
 </div>
 
 <!-- ====== 場次四 ====== -->
-<h2>⚽ 場次四｜阿爾及利亞 2:1 約旦｜J組</h2>
-<div class="result">🇩🇿 阿爾及利亞 2 : 1 約旦 🇯🇴</div>
-
-<p style="font-size:14px;margin:6px 0 12px 0">
-  ⚽ 進球者：<br>
-  約旦：<strong>Nizar Al-Rashdan</strong>（36'，精彩遠射先進）<br>
-  阿爾及利亞：<strong>Nadhir Benbouali</strong>（68'，Mahrez 角球助攻頭槌）、<strong>Amine Gouiri</strong>（82'，Hadj Moussa 角球 + 折射入網，VAR 確認有效）<br>
-  📍 約旦主要出局，阿爾及利亞保住出線希望
-</p>
-
-<table>
-  <tr><th>項目</th><th>賽前預測</th><th>實際結果</th><th>結果</th></tr>
-  <tr>
-    <td>勝負</td>
-    <td>阿爾及利亞勝（60%）</td>
-    <td>阿爾及利亞勝</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>大小分（2.5）</td>
-    <td>偏大分（52%+）</td>
-    <td>3球 大分</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>BTTS</td>
-    <td>是（熱押）</td>
-    <td>是（雙方各進球）</td>
-    <td class="hit">✅ 命中</td>
-  </tr>
-  <tr>
-    <td>比分</td>
-    <td><strong>2-1 阿爾及利亞（28%）</strong></td>
-    <td>2-1 阿爾及利亞</td>
-    <td class="hit">🎯 完全命中！</td>
-  </tr>
-</table>
-
-<div class="perfect">
-  <strong>🎯 本場完全命中！所有預測全部正確。</strong><br>
-  ✅ 阿爾及利亞勝、大分、BTTS、比分 2-1 ——四項全中。<br>
-  ✅ 賽前精確分析：「兩隊都必須贏，注定是開放型比賽」、「Mahrez 定位球是最大武器」——事後看完全命中（Benbouali 的破門正是來自 Mahrez 角球）。<br>
-  ✅ 約旦 Ali Olwan 精神（賽前提到「不是完全無牙的隊」）也驗證——Al-Rashdan 36' 先進一球。<br>
-  ✅ 下半場逆轉節奏也完全符合預測（兩隊背水一戰，開放型比賽）。<br>
-  📌 <strong>重要記憶：阿爾及利亞靠 Mahrez 定位球、Gouiri 替補能力逆轉，有後場翻盤能力。J 組出線：阿根廷（確定晉級）、阿爾及利亞需繼續。</strong>
+<div style="background:white;border-radius:10px;padding:20px;margin-bottom:20px;box-shadow:0 2px 6px rgba(0,0,0,0.08)">
+  <h2 style="color:#1a1a2e;border-left:4px solid #27ae60;padding-left:10px;font-size:16px;margin-top:0">⚽ 場次四｜阿爾及利亞 vs 約旦｜J 組</h2>
+  <div style="font-size:28px;font-weight:bold;color:#1a1a2e;text-align:center;padding:16px;background:#f0f4ff;border-radius:8px;margin:12px 0">🇩🇿 阿爾及利亞 2 : 1 約旦 🇯🇴</div>
+  <p style="font-size:14px;margin:8px 0">
+    ⚽ <strong>進球者：</strong><br>
+    約旦：Nizar Al-Rashdan（36'，精彩遠射先進）<br>
+    阿爾及利亞：Nadhir Benbouali（68'，Mahrez 角球助攻頭槌）、Amine Gouiri（82'，Hadj Moussa 角球折射，VAR 確認有效）<br>
+    📍 約旦出局，阿爾及利亞保住出線希望
+  </p>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:14px">
+    <tr><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">項目</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">賽前預測</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">實際結果</th><th style="background:#1a1a2e;color:white;padding:8px 12px;text-align:left">結果</th></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">勝負</td><td style="padding:7px 12px;border-bottom:1px solid #eee">阿爾及利亞勝（60%）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">阿爾及利亞勝</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">大小分（2.5）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">偏大分（52%+）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">3 球 大分</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #eee">BTTS</td><td style="padding:7px 12px;border-bottom:1px solid #eee">是（熱押）</td><td style="padding:7px 12px;border-bottom:1px solid #eee">是（雙方各進球）</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">✅ 命中</td></tr>
+    <tr style="background:#f9f9f9"><td style="padding:7px 12px;border-bottom:1px solid #eee">比分預測</td><td style="padding:7px 12px;border-bottom:1px solid #eee"><strong>2:1 阿爾及利亞（28%）</strong></td><td style="padding:7px 12px;border-bottom:1px solid #eee">2-1 阿爾及利亞</td><td style="padding:7px 12px;border-bottom:1px solid #eee;color:#27ae60;font-weight:bold">🎯 完全命中！</td></tr>
+  </table>
+  <div style="background:#e8f5e9;border-left:4px solid #27ae60;padding:10px 14px;border-radius:4px;font-size:14px;margin:8px 0">
+    🎯 <strong>本場完全命中！四項全中！</strong>賽前精確預測：「兩隊都必須贏 = 開放型比賽」、「Mahrez 定位球是最大武器」——Benbouali 與 Gouiri 的進球正是來自 Mahrez 角球。約旦 Al-Rashdan 遠射先進也符合賽前「約旦不是無牙隊」的判斷。<br>
+    📌 重要記憶：阿爾及利亞靠 Mahrez 定位球 + Gouiri 替補能力逆轉，定位球策略是核心武器。
+  </div>
 </div>
 
-<!-- ====== 總結 ====== -->
-<div class="total-box">
-  <h2 style="color:white;border-left:4px solid #f39c12;padding-left:10px;margin-top:0">📋 本日總結｜06/23 四場</h2>
-  <table class="total-box">
-    <tr>
-      <th>比賽</th>
-      <th>勝負</th>
-      <th>大小分</th>
-      <th>BTTS</th>
-    </tr>
-    <tr>
-      <td>🇦🇷 阿根廷 2-0 奧地利 🇦🇹</td>
-      <td class="hit">✅</td>
-      <td class="miss">❌</td>
-      <td class="hit">✅</td>
-    </tr>
-    <tr>
-      <td>🇫🇷 法國 3-0 伊拉克 🇮🇶</td>
-      <td class="hit">✅</td>
-      <td class="miss">❌</td>
-      <td class="hit">✅</td>
-    </tr>
-    <tr>
-      <td>🇳🇴 挪威 3-2 塞內加爾 🇸🇳</td>
-      <td class="hit">✅</td>
-      <td class="hit">✅</td>
-      <td class="hit">✅</td>
-    </tr>
-    <tr>
-      <td>🇩🇿 阿爾及利亞 2-1 約旦 🇯🇴</td>
-      <td class="hit">✅</td>
-      <td class="hit">✅</td>
-      <td class="hit">✅</td>
-    </tr>
+<!-- ====== 今日總結 ====== -->
+<div style="background:#1a1a2e;color:white;border-radius:8px;padding:14px 18px;margin-bottom:20px">
+  <div style="font-size:16px;font-weight:bold;border-left:4px solid #f39c12;padding-left:10px;margin-bottom:12px">📋 今日總結｜06/23 四場</div>
+  <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:14px">
+    <tr><th style="background:#0d0d1a;color:white;padding:8px 12px;text-align:left">比賽</th><th style="background:#0d0d1a;color:white;padding:8px 12px;text-align:left">勝負</th><th style="background:#0d0d1a;color:white;padding:8px 12px;text-align:left">大小分</th><th style="background:#0d0d1a;color:white;padding:8px 12px;text-align:left">BTTS</th><th style="background:#0d0d1a;color:white;padding:8px 12px;text-align:left">比分</th></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #333;color:#eee">🇦🇷 阿根廷 2-0 奧地利 🇦🇹</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#ef9a9a">✖</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #333;color:#eee">🇫🇷 法國 3-0 伊拉克 🇮🇶</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#ef9a9a">✖</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #333;color:#eee">🇳🇴 挪威 3-2 塞內加爾 🇸🇳</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#ef9a9a">✖</td></tr>
+    <tr><td style="padding:7px 12px;border-bottom:1px solid #333;color:#eee">🇩🇿 阿爾及利亞 2-1 約旦 🇯🇴</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">✅</td><td style="padding:7px 12px;border-bottom:1px solid #333;color:#81c784">🎯</td></tr>
   </table>
   <p style="color:#ccc;font-size:13px;margin-top:10px">
-    勝負：<strong style="color:#81c784">4中 / 4場（100%！）</strong>｜大小分：2中 / 4場（50%）｜BTTS：<strong style="color:#81c784">4中 / 4場（100%！）</strong><br>
-    <strong style="color:#f39c12">⚠️ 大小分失準原因：① 阿根廷 Messi 罰球沒進（2球=小分，差一球）② 法國 3.5 盤差半球（延賽影響節奏）</strong>
+    勝負：<strong style="color:#81c784">4/4（100%！）</strong>｜大小分：2/4（50%）｜BTTS：<strong style="color:#81c784">4/4（100%！）</strong>｜比分：<strong style="color:#81c784">3/4</strong><br>
+    ⚠️ 大小分失準原因：① 阿根廷 Messi 罰球沒進（2球小分，差1球）② 法國 3.5 盤差半球（延賽影響節奏）
   </p>
 </div>
 
 <!-- ====== 跨場學習 ====== -->
-<h2 style="border-left-color:#8e44ad">💡 跨場學習筆記</h2>
-<div class="review-box" style="background:#faf0ff;border-color:#ce93d8">
-  <ol style="margin:0;padding-left:20px;line-height:2">
-    <li>🇦🇷 <strong>Messi 打破世界盃歷史紀錄（第18球）</strong>——後續場次 Messi 進球是本屆最可靠的個人賭注之一</li>
-    <li>🇦🇷 <strong>阿根廷面對完全龜縮的對手，大分機率受限</strong>——奧地利放棄進攻、零射正，比分被壓縮。下次若對手策略守門，需調低大分預測</li>
-    <li>🇫🇷 <strong>法國對弱隊偏 3 球上限，3.5 盤高風險</strong>——比 3-1、3-0 更常見，不要輕易過 3.5；暴風雨延賽也是不可測因素</li>
-    <li>🇳🇴 <strong>挪威規律確立：大分 + BTTS = 標配</strong>——後防漏洞是本屆持續規律，只要有 Haaland + 對方能進球的場次，一律先押大分+BTTS</li>
-    <li>🇩🇿 <strong>Mahrez 定位球威力驚人</strong>——兩顆角球（Benbouali + Gouiri）都是 Mahrez 助攻或 Hadj Moussa 傳球，定位球策略是阿爾及利亞的核心武器</li>
-    <li>📊 出線局勢：<strong>I 組</strong>（法國 + 挪威晉級，塞內加爾、伊拉克出局）；<strong>J 組</strong>（阿根廷晉級，阿爾及利亞、奧地利爭搶第二）</li>
+<div style="background:white;border-radius:10px;padding:20px;margin-bottom:20px;box-shadow:0 2px 6px rgba(0,0,0,0.08)">
+  <h2 style="color:#1a1a2e;border-left:4px solid #8e44ad;padding-left:10px;font-size:16px;margin-top:0">💡 跨場學習筆記</h2>
+  <ol style="margin:0;padding-left:20px;line-height:2;font-size:14px">
+    <li>🇦🇷 <strong>Messi 打破世界盃歷史紀錄（第 18 球）</strong>——後續場次 Messi 進球是本屆最可靠個人賭注</li>
+    <li>🇦🇷 <strong>阿根廷面對龜縮對手，大分受限</strong>——奧地利零射正棄攻，比分被壓縮；下次龜縮策略場次調低大分預測</li>
+    <li>🇫🇷 <strong>法國對弱隊偏 3 球上限，3.5 盤高風險</strong>——比 3-1、3-0 更常見；暴風雨延賽是不可測因素</li>
+    <li>🇳🇴 <strong>挪威規律確立：大分 + BTTS = 標配</strong>——後防漏洞是本屆持續規律，Haaland 場次一律先押大分+BTTS</li>
+    <li>🇩🇿 <strong>Mahrez 定位球威力驚人</strong>——兩球都源自 Mahrez 角球/定位球，是阿爾及利亞逆轉核心</li>
+    <li>📊 <strong>I 組出線：</strong>法國 + 挪威晉級；塞內加爾、伊拉克出局<br>
+        📊 <strong>J 組出線：</strong>阿根廷晉級；阿爾及利亞 vs 奧地利爭搶第二</li>
   </ol>
 </div>
 
-<div class="footer">由豪豪世足分析助理自動產生 ｜ 台灣時間 2026-06-23 14:30</div>
-</body>
-</html>
+<!-- ====== 累計命中率 ====== -->
+<div style="background:#f0f4ff;border-radius:8px;padding:14px 16px;margin-top:8px;font-size:13px">
+  <b>📈 累計命中率</b>：勝負 4/4（100%）｜大小分 2/4（50%）｜BTTS 4/4（100%）｜比分 3/4（75%）
+</div>
+
+<div style="font-size:12px;color:#aaa;text-align:center;margin-top:20px;padding-top:12px;border-top:1px solid #eee">由豪豪世足分析助理自動產生｜台灣時間 2026-06-23 16:00</div>
+</body></html>

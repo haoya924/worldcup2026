@@ -1,15 +1,55 @@
 {
   "last_updated": "2026-06-23",
   "stats": {
-    "total_matches": 0,
-    "win_correct": 0,
-    "win_total": 0,
-    "ou_correct": 0,
-    "ou_total": 0,
-    "btts_correct": 0,
-    "btts_total": 0,
-    "score_correct": 0,
-    "score_total": 0
+    "total_matches": 4,
+    "win_correct": 4,
+    "win_total": 4,
+    "ou_correct": 2,
+    "ou_total": 4,
+    "btts_correct": 4,
+    "btts_total": 4,
+    "score_correct": 3,
+    "score_total": 4
   },
-  "days": []
+  "days": [
+    {
+      "date": "0623",
+      "matches": [
+        "阿根廷 2-0 奧地利",
+        "法國 3-0 伊拉克",
+        "挪威 3-2 塞內加爾",
+        "阿爾及利亞 2-1 約旦"
+      ],
+      "results": [
+        {
+          "match": "阿根廷 2-0 奧地利",
+          "win_correct": true,
+          "ou_correct": false,
+          "btts_correct": true,
+          "score_correct": true
+        },
+        {
+          "match": "法國 3-0 伊拉克",
+          "win_correct": true,
+          "ou_correct": false,
+          "btts_correct": true,
+          "score_correct": true
+        },
+        {
+          "match": "挪威 3-2 塞內加爾",
+          "win_correct": true,
+          "ou_correct": true,
+          "btts_correct": true,
+          "score_correct": false
+        },
+        {
+          "match": "阿爾及利亞 2-1 約旦",
+          "win_correct": true,
+          "ou_correct": true,
+          "btts_correct": true,
+          "score_correct": true
+        }
+      ]
+    }
+  ]
 }
