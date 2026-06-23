@@ -19,7 +19,7 @@
       background-size: 30px 30px, 120px 120px;
     }
 
-    /* Header */
+    /* ── Header ── */
     .header {
       background: linear-gradient(135deg, #2e7d32 0%, #43a047 50%, #66bb6a 100%);
       padding: 28px 20px 22px;
@@ -31,141 +31,94 @@
     .header::before {
       content: '';
       position: absolute; inset: 0;
-      background: repeating-linear-gradient(
-        90deg,
-        rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 40px,
-        transparent 40px, transparent 80px
-      );
+      background: repeating-linear-gradient(90deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 40px, transparent 40px, transparent 80px);
     }
-    .header h1 {
-      font-size: 26px; color: #fff;
-      font-family: 'ZCOOL KuaiLe', cursive;
-      text-shadow: 0 2px 6px rgba(0,0,0,0.25);
-      letter-spacing: 2px; position: relative;
-    }
+    .header h1 { font-size: 26px; color: #fff; font-family: 'ZCOOL KuaiLe', cursive; text-shadow: 0 2px 6px rgba(0,0,0,0.25); letter-spacing: 2px; position: relative; }
     .header .sub { color: rgba(255,255,255,0.85); font-size: 13px; margin-top: 6px; position: relative; }
-    .wc-badge {
-      display: inline-block; background: #fff; color: #2e7d32;
-      font-size: 11px; font-weight: bold; padding: 2px 8px;
-      border-radius: 10px; margin-left: 8px; vertical-align: middle;
-    }
+    .wc-badge { display: inline-block; background: #fff; color: #2e7d32; font-size: 11px; font-weight: bold; padding: 2px 8px; border-radius: 10px; margin-left: 8px; vertical-align: middle; }
+    .balls { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+    .ball  { position: absolute; font-size: 28px; opacity: 0.15; animation: float 6s ease-in-out infinite; }
+    .ball:nth-child(1) { left:5%;  top:10%; animation-delay:0s; }
+    .ball:nth-child(2) { left:85%; top:20%; animation-delay:1.5s; }
+    .ball:nth-child(3) { left:20%; top:60%; animation-delay:3s;   font-size:20px; }
+    .ball:nth-child(4) { left:70%; top:55%; animation-delay:4.5s; font-size:22px; }
+    @keyframes float { 0%,100%{transform:translateY(0) rotate(0deg)} 50%{transform:translateY(-8px) rotate(15deg)} }
 
-    /* Floating footballs deco */
-    .balls {
-      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-      pointer-events: none; overflow: hidden;
-    }
-    .ball {
-      position: absolute; font-size: 28px;
-      opacity: 0.15; animation: float 6s ease-in-out infinite;
-    }
-    .ball:nth-child(1) { left: 5%;  top: 10%; animation-delay: 0s; }
-    .ball:nth-child(2) { left: 85%; top: 20%; animation-delay: 1.5s; }
-    .ball:nth-child(3) { left: 20%; top: 60%; animation-delay: 3s; font-size: 20px; }
-    .ball:nth-child(4) { left: 70%; top: 55%; animation-delay: 4.5s; font-size: 22px; }
-    @keyframes float {
-      0%, 100% { transform: translateY(0) rotate(0deg); }
-      50% { transform: translateY(-8px) rotate(15deg); }
-    }
+    /* ── Stats ── */
+    .stats-wrap { background:#fff; border-bottom:2px solid #c8e6c9; padding:14px 16px; overflow-x:auto; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+    .stats { display:flex; gap:10px; min-width:max-content; margin:0 auto; max-width:1200px; }
+    .stat { flex:1; min-width:88px; background:linear-gradient(135deg,#f9fff9,#f0faf0); border:1.5px solid #c8e6c9; border-radius:10px; padding:10px 12px; text-align:center; }
+    .stat .num { font-size:22px; font-weight:bold; color:#e53935; line-height:1; }
+    .stat .num.green { color:#2e7d32; }
+    .stat .lbl { font-size:11px; color:#777; margin-top:4px; white-space:nowrap; }
 
-    /* Stats */
-    .stats-wrap {
-      background: #fff;
-      border-bottom: 2px solid #c8e6c9;
-      padding: 14px 16px;
-      overflow-x: auto;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
-    .stats { display: flex; gap: 10px; min-width: max-content; margin: 0 auto; max-width: 800px; }
-    .stat {
-      flex: 1; min-width: 88px;
-      background: linear-gradient(135deg, #f9fff9, #f0faf0);
-      border: 1.5px solid #c8e6c9;
-      border-radius: 10px; padding: 10px 12px; text-align: center;
-    }
-    .stat .num { font-size: 22px; font-weight: bold; color: #e53935; line-height: 1; }
-    .stat .num.green { color: #2e7d32; }
-    .stat .lbl { font-size: 11px; color: #777; margin-top: 4px; white-space: nowrap; }
+    /* ── 三欄 Main layout ── */
+    .main-wrap { max-width:1200px; margin:0 auto; padding:20px 16px; display:grid; grid-template-columns:260px 1fr 260px; gap:18px; align-items:start; }
+    @media (max-width:900px) { .main-wrap { grid-template-columns:1fr 1fr; } .col-groups { grid-column:1/-1; } }
+    @media (max-width:580px) { .main-wrap { grid-template-columns:1fr; } }
 
-    /* Container */
-    .container { max-width: 800px; margin: 0 auto; padding: 20px 16px; }
+    /* ── Panel 共用 ── */
+    .panel { background:#fff; border-radius:14px; border:1.5px solid #c8e6c9; box-shadow:0 2px 10px rgba(46,125,50,0.08); overflow:hidden; position:sticky; top:16px; }
+    .panel-header { padding:12px 16px; }
+    .panel-header .ph-title { font-size:15px; font-weight:bold; color:#fff; }
+    .panel-header .ph-sub   { font-size:11px; color:rgba(255,255,255,0.75); margin-top:2px; }
+    .panel-body { padding:12px 14px; max-height:72vh; overflow-y:auto; }
+    .panel-updated { font-size:10px; color:#bbb; text-align:center; padding:8px; border-top:1px solid #f0f0f0; }
 
-    /* Section title */
-    .section-title {
-      font-size: 13px; font-weight: bold; color: #388e3c;
-      letter-spacing: 1px; text-transform: uppercase;
-      margin-bottom: 12px; padding-bottom: 8px;
-      border-bottom: 2px solid #a5d6a7;
-      display: flex; align-items: center; gap: 6px;
-    }
+    /* ── 未來賽程 ── */
+    .ph-schedule { background:linear-gradient(135deg,#1565c0,#1976d2); }
+    .sched-day { margin-bottom:14px; }
+    .sched-day-label { font-size:12px; font-weight:bold; color:#1565c0; background:#e3f2fd; border-radius:6px; padding:4px 10px; margin-bottom:6px; display:inline-block; }
+    .sched-match { display:flex; align-items:flex-start; gap:8px; padding:7px 8px; border-radius:8px; margin-bottom:4px; background:#f8fffe; border:1px solid #e0f2f1; }
+    .sched-time  { font-size:12px; font-weight:bold; color:#e53935; white-space:nowrap; min-width:36px; padding-top:1px; }
+    .sched-teams { font-size:13px; color:#1a1a2e; line-height:1.4; }
+    .sched-meta  { font-size:10px; color:#999; margin-top:1px; }
 
-    /* Day card */
-    .day-card {
-      background: #fff;
-      border-radius: 12px;
-      margin-bottom: 12px;
-      overflow: hidden;
-      border: 1.5px solid #c8e6c9;
-      box-shadow: 0 2px 10px rgba(46,125,50,0.08);
-      transition: transform 0.15s, box-shadow 0.15s;
-    }
-    .day-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(46,125,50,0.15);
-    }
-    .day-header {
-      background: linear-gradient(90deg, #2e7d32, #43a047);
-      padding: 11px 16px;
-      display: flex; align-items: center; gap: 12px;
-      flex-wrap: wrap;
-    }
-    .day-date { font-weight: bold; font-size: 15px; color: #fff; white-space: nowrap; }
-    .day-info {
-      font-size: 12px; color: rgba(255,255,255,0.85);
-      flex: 1; min-width: 0; overflow: hidden;
-      white-space: nowrap; text-overflow: ellipsis;
-    }
-    .day-body { padding: 12px 16px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; background: #fafffe; }
+    /* ── 各組賽況 ── */
+    .ph-groups { background:linear-gradient(135deg,#6a1b9a,#8e24aa); }
+    .group-block { margin-bottom:16px; }
+    .group-name { font-size:12px; font-weight:bold; color:#6a1b9a; background:#f3e5f5; border-radius:6px; padding:4px 10px; margin-bottom:6px; display:inline-block; }
+    .group-table { width:100%; border-collapse:collapse; font-size:11px; }
+    .group-table th { color:#888; font-weight:normal; padding:3px 4px; text-align:center; border-bottom:1px solid #f0f0f0; }
+    .group-table th:first-child { text-align:left; }
+    .group-table td { padding:4px 4px; text-align:center; border-bottom:1px solid #f9f9f9; }
+    .group-table td:first-child { text-align:left; font-weight:500; color:#1a1a2e; }
+    .group-table tr:last-child td { border-bottom:none; }
+    .group-table .pts { font-weight:bold; color:#6a1b9a; }
+    .group-table .adv { background:#e8f5e9; }
+    .group-table .flag { margin-right:3px; }
 
-    .btn {
-      display: inline-flex; align-items: center; gap: 5px;
-      padding: 8px 16px; border-radius: 20px; font-size: 13px;
-      text-decoration: none; font-weight: 700; cursor: pointer;
-      transition: opacity 0.15s, transform 0.1s, box-shadow 0.15s;
-      white-space: nowrap;
-    }
-    .btn:hover { opacity: 0.9; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-    .btn:active { transform: translateY(0); }
-    .btn-analysis { background: linear-gradient(135deg, #e53935, #ef5350); color: #fff; }
-    .btn-review   { background: linear-gradient(135deg, #2e7d32, #43a047); color: #fff; }
-    .btn-pending  { background: #f0f0f0; color: #aaa; cursor: default; border: 1px solid #ddd; }
-    .btn-pending:hover { opacity: 1; transform: none; box-shadow: none; }
+    /* ── 中欄分析紀錄 ── */
+    .section-title { font-size:13px; font-weight:bold; color:#388e3c; letter-spacing:1px; margin-bottom:12px; padding-bottom:8px; border-bottom:2px solid #a5d6a7; display:flex; align-items:center; gap:6px; }
+    .day-card { background:#fff; border-radius:12px; margin-bottom:12px; overflow:hidden; border:1.5px solid #c8e6c9; box-shadow:0 2px 10px rgba(46,125,50,0.08); transition:transform 0.15s,box-shadow 0.15s; }
+    .day-card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(46,125,50,0.15); }
+    .day-header { background:linear-gradient(90deg,#2e7d32,#43a047); padding:11px 16px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+    .day-date { font-weight:bold; font-size:15px; color:#fff; white-space:nowrap; }
+    .day-info  { font-size:12px; color:rgba(255,255,255,0.85); flex:1; min-width:0; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+    .day-body  { padding:12px 16px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; background:#fafffe; }
 
-    /* Loading */
-    .loading { text-align: center; padding: 50px 20px; color: #999; font-size: 14px; }
-    .loading .spinner {
-      width: 36px; height: 36px;
-      border: 3px solid #c8e6c9; border-top-color: #2e7d32;
-      border-radius: 50%; animation: spin 0.8s linear infinite;
-      margin: 0 auto 12px;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .error { text-align: center; padding: 40px; color: #e53935; font-size: 14px; }
+    .btn { display:inline-flex; align-items:center; gap:5px; padding:8px 16px; border-radius:20px; font-size:13px; text-decoration:none; font-weight:700; cursor:pointer; transition:opacity 0.15s,transform 0.1s,box-shadow 0.15s; white-space:nowrap; }
+    .btn:hover { opacity:0.9; transform:translateY(-1px); box-shadow:0 4px 12px rgba(0,0,0,0.15); }
+    .btn:active { transform:translateY(0); }
+    .btn-analysis { background:linear-gradient(135deg,#e53935,#ef5350); color:#fff; }
+    .btn-review   { background:linear-gradient(135deg,#2e7d32,#43a047); color:#fff; }
+    .btn-pending  { background:#f0f0f0; color:#aaa; cursor:default; border:1px solid #ddd; }
+    .btn-pending:hover { opacity:1; transform:none; box-shadow:none; }
 
-    /* Footer */
-    .footer {
-      text-align: center; color: #81c784; font-size: 12px;
-      padding: 24px 16px;
-      background: rgba(255,255,255,0.5);
-      border-top: 1px solid #c8e6c9;
-      margin-top: 8px;
-    }
+    /* ── Loading ── */
+    .loading { text-align:center; padding:30px 20px; color:#999; font-size:13px; }
+    .loading .spinner { width:28px; height:28px; border:3px solid #c8e6c9; border-top-color:#2e7d32; border-radius:50%; animation:spin 0.8s linear infinite; margin:0 auto 8px; }
+    @keyframes spin { to { transform:rotate(360deg); } }
+    .empty-note { text-align:center; padding:20px 12px; color:#aaa; font-size:12px; line-height:1.6; }
 
-    /* Mobile */
-    @media (max-width: 500px) {
-      .header h1 { font-size: 19px; }
-      .stat .num { font-size: 18px; }
-      .btn { font-size: 12px; padding: 7px 12px; }
+    /* ── Footer ── */
+    .footer { text-align:center; color:#81c784; font-size:12px; padding:20px 16px; background:rgba(255,255,255,0.5); border-top:1px solid #c8e6c9; margin-top:8px; }
+
+    @media (max-width:500px) {
+      .header h1 { font-size:18px; }
+      .stat .num { font-size:18px; }
+      .btn { font-size:12px; padding:7px 12px; }
+      .panel { position:static; }
     }
   </style>
 </head>
@@ -173,10 +126,8 @@
 
 <div class="header">
   <div class="balls">
-    <div class="ball">⚽</div>
-    <div class="ball">⚽</div>
-    <div class="ball">⚽</div>
-    <div class="ball">⚽</div>
+    <div class="ball">⚽</div><div class="ball">⚽</div>
+    <div class="ball">⚽</div><div class="ball">⚽</div>
   </div>
   <h1>⚽ 你是不是想贏錢世足分析 <span class="wc-badge">2026 WC</span></h1>
   <div class="sub" id="header-sub">載入中...</div>
@@ -193,14 +144,40 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="section-title">⚽ 賽程分析紀錄</div>
-  <div id="content">
-    <div class="loading">
-      <div class="spinner"></div>
-      載入資料中...
+<div class="main-wrap">
+
+  <!-- 左：未來賽程 -->
+  <div class="panel col-schedule">
+    <div class="panel-header ph-schedule">
+      <div class="ph-title">📅 未來賽程</div>
+      <div class="ph-sub">台灣時間（UTC+8）· 每晚 20:00 更新</div>
+    </div>
+    <div class="panel-body" id="schedule-body">
+      <div class="loading"><div class="spinner"></div>載入中...</div>
+    </div>
+    <div class="panel-updated" id="sched-updated"></div>
+  </div>
+
+  <!-- 中：分析紀錄 -->
+  <div>
+    <div class="section-title">⚽ 賽程分析紀錄</div>
+    <div id="content">
+      <div class="loading"><div class="spinner"></div>載入中...</div>
     </div>
   </div>
+
+  <!-- 右：各組賽況 -->
+  <div class="panel col-groups">
+    <div class="panel-header ph-groups">
+      <div class="ph-title">🏆 各組賽況</div>
+      <div class="ph-sub">積分 · 每晚 20:00 更新</div>
+    </div>
+    <div class="panel-body" id="groups-body">
+      <div class="loading"><div class="spinner"></div>載入中...</div>
+    </div>
+    <div class="panel-updated" id="groups-updated"></div>
+  </div>
+
 </div>
 
 <div class="footer">⚽ 你是不是想贏錢世足分析助理自動產生 · 2026 FIFA World Cup</div>
@@ -211,22 +188,77 @@ const REPO  = 'worldcup2026';
 const RAW   = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/`;
 const API   = `https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
 const PAGES = `https://nixiangyingqianma.netlify.app/`;
-
 const DAY_NAMES = ['日','一','二','三','四','五','六'];
 
 function dateDisplay(mmdd) {
-  const m = parseInt(mmdd.slice(0, 2));
-  const d = parseInt(mmdd.slice(2, 4));
-  const dt = new Date(2026, m - 1, d);
-  return `${m}/${d}（週${DAY_NAMES[dt.getDay()]}）`;
+  const m = parseInt(mmdd.slice(0,2)), d = parseInt(mmdd.slice(2,4));
+  return `${m}/${d}（週${DAY_NAMES[new Date(2026,m-1,d).getDay()]}）`;
+}
+function pct(c,t) { return t ? `${c}/${t}` : '–'; }
+
+/* ── 賽程 ── */
+async function loadSchedule() {
+  const body = document.getElementById('schedule-body');
+  try {
+    const r = await fetch(RAW + 'schedule.json?t=' + Date.now());
+    if (!r.ok) throw new Error();
+    const sc = await r.json();
+    if (!sc.matches || !sc.matches.length) throw new Error();
+
+    const groups = {};
+    for (const m of sc.matches) {
+      if (!groups[m.date]) groups[m.date] = [];
+      groups[m.date].push(m);
+    }
+    body.innerHTML = Object.keys(groups).sort().map(date => `
+      <div class="sched-day">
+        <div class="sched-day-label">📅 ${dateDisplay(date)}</div>
+        ${groups[date].map(m => `
+          <div class="sched-match">
+            <div class="sched-time">${m.time}</div>
+            <div>
+              <div class="sched-teams">${m.home} vs ${m.away}</div>
+              <div class="sched-meta">${[m.group, m.venue].filter(Boolean).join(' · ')}</div>
+            </div>
+          </div>`).join('')}
+      </div>`).join('');
+    if (sc.updated) document.getElementById('sched-updated').textContent = '更新：' + sc.updated;
+  } catch(e) {
+    body.innerHTML = `<div class="empty-note">賽程資料將於<br>今晚 20:00 自動更新</div>`;
+  }
 }
 
-function pct(correct, total) {
-  if (!total) return '–';
-  return `${correct}/${total}`;
+/* ── 各組賽況 ── */
+async function loadGroups() {
+  const body = document.getElementById('groups-body');
+  try {
+    const r = await fetch(RAW + 'groups.json?t=' + Date.now());
+    if (!r.ok) throw new Error();
+    const gd = await r.json();
+    if (!gd.groups || !gd.groups.length) throw new Error();
+
+    body.innerHTML = gd.groups.map(g => `
+      <div class="group-block">
+        <div class="group-name">${g.name}</div>
+        <table class="group-table">
+          <tr><th>隊伍</th><th>賽</th><th>勝</th><th>平</th><th>負</th><th>得</th><th>失</th><th>積</th></tr>
+          ${g.teams.map((t,i) => `
+            <tr class="${i<2?'adv':''}">
+              <td><span class="flag">${t.flag||''}</span>${t.name}</td>
+              <td>${t.played}</td><td>${t.won}</td><td>${t.drawn}</td><td>${t.lost}</td>
+              <td>${t.gf}</td><td>${t.ga}</td>
+              <td class="pts">${t.pts}</td>
+            </tr>`).join('')}
+        </table>
+      </div>`).join('');
+    if (gd.updated) document.getElementById('groups-updated').textContent = '更新：' + gd.updated;
+  } catch(e) {
+    body.innerHTML = `<div class="empty-note">組別積分將於<br>今晚 20:00 自動更新</div>`;
+  }
 }
 
-async function load() {
+/* ── 分析紀錄 ── */
+async function loadRecords() {
   const content = document.getElementById('content');
   try {
     const res = await fetch(API + '?per_page=100');
@@ -239,8 +271,8 @@ async function load() {
       const m = f.name.match(/^(\d{4})_(分析|檢討)\.html$/);
       if (!m) continue;
       const [, date, type] = m;
-      if (!days[date]) days[date] = { date, analysis: null, review: null };
-      days[date][type === '分析' ? 'analysis' : 'review'] = f.name;
+      if (!days[date]) days[date] = { date, analysis:null, review:null };
+      days[date][type==='分析'?'analysis':'review'] = f.name;
     }
 
     let data = null;
@@ -249,35 +281,30 @@ async function load() {
       if (dr.ok) data = await dr.json();
     } catch(e) {}
 
-    const sorted = Object.values(days).sort((a, b) => b.date.localeCompare(a.date));
+    const sorted = Object.values(days).sort((a,b) => b.date.localeCompare(a.date));
     document.getElementById('s-days').textContent = sorted.length;
 
     if (data?.stats) {
       const s = data.stats;
       document.getElementById('s-matches').textContent = s.total_matches ?? '–';
-      document.getElementById('s-win').textContent   = pct(s.win_correct,   s.win_total);
-      document.getElementById('s-ou').textContent    = pct(s.ou_correct,    s.ou_total);
-      document.getElementById('s-btts').textContent  = pct(s.btts_correct,  s.btts_total);
-      document.getElementById('s-score').textContent = pct(s.score_correct, s.score_total);
+      document.getElementById('s-win').textContent   = pct(s.win_correct,  s.win_total);
+      document.getElementById('s-ou').textContent    = pct(s.ou_correct,   s.ou_total);
+      document.getElementById('s-btts').textContent  = pct(s.btts_correct, s.btts_total);
+      document.getElementById('s-score').textContent = pct(s.score_correct,s.score_total);
     }
 
-    const newest = sorted[0];
-    const hn = newest ? `最後分析：${dateDisplay(newest.date)}` : '尚無資料';
-    document.getElementById('header-sub').textContent = hn + '　·　2026 FIFA World Cup';
+    document.getElementById('header-sub').textContent =
+      (sorted[0] ? `最後分析：${dateDisplay(sorted[0].date)}` : '尚無資料') + '　·　2026 FIFA World Cup';
 
-    if (sorted.length === 0) {
-      content.innerHTML = '<div class="loading">尚無分析資料</div>';
-      return;
-    }
+    if (!sorted.length) { content.innerHTML='<div class="loading">尚無分析資料</div>'; return; }
 
     content.innerHTML = sorted.map(day => {
-      const matchNames = data?.days?.find(d => d.date === day.date)?.matches?.join(' · ') || '';
-      const dd = dateDisplay(day.date);
+      const names = data?.days?.find(d=>d.date===day.date)?.matches?.join(' · ') || '';
       return `
         <div class="day-card">
           <div class="day-header">
-            <span class="day-date">📅 ${dd}</span>
-            ${matchNames ? `<span class="day-info">${matchNames}</span>` : ''}
+            <span class="day-date">📅 ${dateDisplay(day.date)}</span>
+            ${names ? `<span class="day-info">${names}</span>` : ''}
           </div>
           <div class="day-body">
             ${day.analysis
@@ -289,13 +316,14 @@ async function load() {
           </div>
         </div>`;
     }).join('');
-
   } catch(e) {
-    content.innerHTML = `<div class="error">載入失敗：${e.message}<br><small style="color:#aaa;margin-top:6px;display:block">請確認網路連線正常</small></div>`;
+    content.innerHTML = `<div class="empty-note">載入失敗：${e.message}</div>`;
   }
 }
 
-load();
+loadSchedule();
+loadGroups();
+loadRecords();
 </script>
 </body>
 </html>
