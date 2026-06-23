@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23 21:00（台灣時間）",
+  "updated": "2026-06-23",
   "groups": [
     {
       "name": "A組",
@@ -94,10 +94,10 @@
     {
       "name": "K組",
       "teams": [
-        {"flag": "🇨🇴", "name": "哥倫比亞", "played": 1, "won": 1, "drawn": 0, "lost": 0, "gd": "+2", "pts": 3},
-        {"flag": "🇨🇩", "name": "剛果民主共和國", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gd": "0", "pts": 1},
-        {"flag": "🇵🇹", "name": "葡萄牙",   "played": 1, "won": 0, "drawn": 1, "lost": 0, "gd": "0",  "pts": 1},
-        {"flag": "🇺🇿", "name": "烏茲別克", "played": 1, "won": 0, "drawn": 0, "lost": 1, "gd": "-2", "pts": 0}
+        {"flag": "🇨🇴", "name": "哥倫比亞",       "played": 1, "won": 1, "drawn": 0, "lost": 0, "gd": "+2", "pts": 3},
+        {"flag": "🇨🇩", "name": "剛果民主共和國", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gd": "0",  "pts": 1},
+        {"flag": "🇵🇹", "name": "葡萄牙",         "played": 1, "won": 0, "drawn": 1, "lost": 0, "gd": "0",  "pts": 1},
+        {"flag": "🇺🇿", "name": "烏茲別克",       "played": 1, "won": 0, "drawn": 0, "lost": 1, "gd": "-2", "pts": 0}
       ]
     },
     {

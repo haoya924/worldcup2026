@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "stats": {
     "total_matches": 4,
     "win_correct": 4,
@@ -12,6 +12,16 @@
     "score_total": 4
   },
   "days": [
+    {
+      "date": "0624",
+      "matches": [
+        "葡萄牙 vs 烏茲別克",
+        "英格蘭 vs 迦納",
+        "巴拿馬 vs 克羅埃西亞",
+        "哥倫比亞 vs 剛果民主共和國"
+      ],
+      "results": []
+    },
     {
       "date": "0623",
       "matches": [
