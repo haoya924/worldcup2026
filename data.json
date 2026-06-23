@@ -1,0 +1,15 @@
+{
+  "last_updated": "2026-06-23",
+  "stats": {
+    "total_matches": 0,
+    "win_correct": 0,
+    "win_total": 0,
+    "ou_correct": 0,
+    "ou_total": 0,
+    "btts_correct": 0,
+    "btts_total": 0,
+    "score_correct": 0,
+    "score_total": 0
+  },
+  "days": []
+}
