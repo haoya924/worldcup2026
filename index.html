@@ -8,8 +8,6 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    html { overflow-x: hidden; }
-
     body {
       font-family: Arial, sans-serif;
       min-height: 100vh;
@@ -27,6 +25,7 @@
       padding: 28px 20px 22px; text-align: center;
       position: relative; overflow: hidden;
       box-shadow: 0 4px 16px rgba(46,125,50,0.4);
+      max-width: 100vw;
     }
     .header::before {
       content:''; position:absolute; inset:0;
@@ -44,7 +43,7 @@
     @keyframes float{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-8px) rotate(15deg)}}
 
     /* ── Stats ── */
-    .stats-wrap { background:#fff; border-bottom:2px solid #c8e6c9; padding:14px 16px; overflow-x:auto; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+    .stats-wrap { background:#fff; border-bottom:2px solid #c8e6c9; padding:14px 16px; overflow-x:auto; box-shadow:0 2px 8px rgba(0,0,0,0.06); max-width:100vw; }
     .stats { display:flex; gap:10px; min-width:max-content; margin:0 auto; max-width:1200px; }
     .stat { flex:1; min-width:88px; background:linear-gradient(135deg,#f9fff9,#f0faf0); border:1.5px solid #c8e6c9; border-radius:10px; padding:10px 12px; text-align:center; }
     .stat .num { font-size:22px; font-weight:bold; color:#e53935; line-height:1; }
