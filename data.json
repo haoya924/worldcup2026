@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24",
+  "last_updated": "2026-06-25",
   "stats": {
     "total_matches": 4,
     "win_correct": 4,
@@ -12,6 +12,18 @@
     "score_total": 4
   },
   "days": [
+    {
+      "date": "0625",
+      "matches": [
+        "瑞士 vs 加拿大",
+        "波士尼亞 vs 卡達",
+        "巴西 vs 蘇格蘭",
+        "摩洛哥 vs 海地",
+        "墨西哥 vs 捷克",
+        "南韓 vs 南非"
+      ],
+      "results": []
+    },
     {
       "date": "0624",
       "matches": [
