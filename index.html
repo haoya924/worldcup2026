@@ -328,10 +328,10 @@ async function loadRecords() {
           </div>
           <div class="day-body">
             ${day.analysis
-              ? `<a class="btn btn-analysis" href="${PAGES}${day.analysis}" target="_blank">⚽ 賽前分析</a>`
+              ? `<a class="btn btn-analysis" href="${PAGES}${encodeURIComponent(day.analysis)}" target="_blank">⚽ 賽前分析</a>`
               : `<span class="btn btn-pending">⚽ 賽前分析</span>`}
             ${day.review
-              ? `<a class="btn btn-review" href="${PAGES}${day.review}" target="_blank">📊 賽後檢討</a>`
+              ? `<a class="btn btn-review" href="${PAGES}${encodeURIComponent(day.review)}" target="_blank">📊 賽後檢討</a>`
               : `<span class="btn btn-pending">📊 檢討待產生</span>`}
           </div>
         </div>`;
