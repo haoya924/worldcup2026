@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "groups": [
     {
       "name": "A組",
@@ -94,19 +94,19 @@
     {
       "name": "K組",
       "teams": [
-        {"flag": "🇨🇴", "name": "哥倫比亞",       "played": 1, "won": 1, "drawn": 0, "lost": 0, "gd": "+2", "pts": 3},
-        {"flag": "🇨🇩", "name": "剛果民主共和國", "played": 1, "won": 0, "drawn": 1, "lost": 0, "gd": "0",  "pts": 1},
-        {"flag": "🇵🇹", "name": "葡萄牙",         "played": 1, "won": 0, "drawn": 1, "lost": 0, "gd": "0",  "pts": 1},
-        {"flag": "🇺🇿", "name": "烏茲別克",       "played": 1, "won": 0, "drawn": 0, "lost": 1, "gd": "-2", "pts": 0}
+        {"flag": "🇨🇴", "name": "哥倫比亞",         "played": 2, "won": 2, "drawn": 0, "lost": 0, "gd": "+3", "pts": 6},
+        {"flag": "🇵🇹", "name": "葡萄牙",           "played": 2, "won": 1, "drawn": 1, "lost": 0, "gd": "+5", "pts": 4},
+        {"flag": "🇨🇩", "name": "剛果民主共和國",   "played": 2, "won": 0, "drawn": 1, "lost": 1, "gd": "-1", "pts": 1},
+        {"flag": "🇺🇿", "name": "烏茲別克",         "played": 2, "won": 0, "drawn": 0, "lost": 2, "gd": "-7", "pts": 0}
       ]
     },
     {
       "name": "L組",
       "teams": [
-        {"flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "name": "英格蘭",   "played": 1, "won": 1, "drawn": 0, "lost": 0, "gd": "+2", "pts": 3},
-        {"flag": "🇬🇭", "name": "迦納",     "played": 1, "won": 1, "drawn": 0, "lost": 0, "gd": "+1", "pts": 3},
-        {"flag": "🇵🇦", "name": "巴拿馬",   "played": 1, "won": 0, "drawn": 0, "lost": 1, "gd": "-1", "pts": 0},
-        {"flag": "🇭🇷", "name": "克羅埃西亞","played": 1, "won": 0, "drawn": 0, "lost": 1, "gd": "-2", "pts": 0}
+        {"flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "name": "英格蘭",   "played": 2, "won": 1, "drawn": 1, "lost": 0, "gd": "+2", "pts": 4},
+        {"flag": "🇬🇭", "name": "迦納",     "played": 2, "won": 1, "drawn": 1, "lost": 0, "gd": "+1", "pts": 4},
+        {"flag": "🇭🇷", "name": "克羅埃西亞","played": 2, "won": 1, "drawn": 0, "lost": 1, "gd": "-1", "pts": 3},
+        {"flag": "🇵🇦", "name": "巴拿馬",   "played": 2, "won": 0, "drawn": 0, "lost": 2, "gd": "-2", "pts": 0}
       ]
     }
   ]
