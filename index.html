@@ -212,8 +212,12 @@ async function loadSchedule() {
     const sc = await r.json();
     if (!sc.matches?.length) throw new Error();
 
+    const twNow = new Date(Date.now() + 8 * 3600000);
+    const todayMMDD = String(twNow.getUTCMonth()+1).padStart(2,'0') + String(twNow.getUTCDate()).padStart(2,'0');
+
     const byDate = {};
     for (const m of sc.matches) {
+      if (m.date < todayMMDD) continue;
       if (!byDate[m.date]) byDate[m.date] = [];
       byDate[m.date].push(m);
     }
