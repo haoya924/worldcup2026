@@ -1,15 +1,15 @@
 {
   "last_updated": "2026-06-25",
   "stats": {
-    "total_matches": 4,
-    "win_correct": 4,
-    "win_total": 4,
-    "ou_correct": 2,
-    "ou_total": 4,
+    "total_matches": 8,
+    "win_correct": 7,
+    "win_total": 8,
+    "ou_correct": 4,
+    "ou_total": 8,
     "btts_correct": 4,
-    "btts_total": 4,
-    "score_correct": 3,
-    "score_total": 4
+    "btts_total": 8,
+    "score_correct": 4,
+    "score_total": 8
   },
   "days": [
     {
@@ -27,12 +27,41 @@
     {
       "date": "0624",
       "matches": [
-        "葡萄牙 vs 烏茲別克",
-        "英格蘭 vs 迦納",
-        "巴拿馬 vs 克羅埃西亞",
-        "哥倫比亞 vs 剛果民主共和國"
+        "葡萄牙 5-0 烏茲別克",
+        "英格蘭 0-0 迦納",
+        "克羅埃西亞 1-0 巴拿馬",
+        "哥倫比亞 1-0 剛果民主共和國"
       ],
-      "results": []
+      "results": [
+        {
+          "match": "葡萄牙 5-0 烏茲別克",
+          "win_correct": true,
+          "ou_correct": true,
+          "btts_correct": false,
+          "score_correct": false
+        },
+        {
+          "match": "英格蘭 0-0 迦納",
+          "win_correct": false,
+          "ou_correct": false,
+          "btts_correct": false,
+          "score_correct": false
+        },
+        {
+          "match": "克羅埃西亞 1-0 巴拿馬",
+          "win_correct": true,
+          "ou_correct": true,
+          "btts_correct": false,
+          "score_correct": true
+        },
+        {
+          "match": "哥倫比亞 1-0 剛果民主共和國",
+          "win_correct": true,
+          "ou_correct": false,
+          "btts_correct": false,
+          "score_correct": false
+        }
+      ]
     },
     {
       "date": "0623",

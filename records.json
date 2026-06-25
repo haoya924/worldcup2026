@@ -1,11 +1,35 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "files": [
-    {"date": "0625", "analysis": "0625_分析.html", "review": null},
-    {"date": "0624", "analysis": "0624_分析.html", "review": null},
-    {"date": "0623", "analysis": "0623_分析.html", "review": "0623_檢討.html"},
-    {"date": "0622", "analysis": null, "review": "0622_檢討.html"},
-    {"date": "0621", "analysis": "0621_分析.html", "review": "0621_檢討.html"},
-    {"date": "0620", "analysis": "0620_分析.html", "review": null}
+    {
+      "date": "0625",
+      "analysis": "0625_分析.html",
+      "review": null
+    },
+    {
+      "date": "0624",
+      "analysis": "0624_分析.html",
+      "review": "0624_檢討.html"
+    },
+    {
+      "date": "0623",
+      "analysis": "0623_分析.html",
+      "review": "0623_檢討.html"
+    },
+    {
+      "date": "0622",
+      "analysis": null,
+      "review": "0622_檢討.html"
+    },
+    {
+      "date": "0621",
+      "analysis": "0621_分析.html",
+      "review": "0621_檢討.html"
+    },
+    {
+      "date": "0620",
+      "analysis": "0620_分析.html",
+      "review": null
+    }
   ]
 }
