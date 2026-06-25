@@ -1,11 +1,6 @@
 {
-  "updated": "2026-06-25",
+  "updated": "2026-06-26",
   "files": [
-    {
-      "date": "0625",
-      "analysis": "0625_分析.html",
-      "review": null
-    },
     {
       "date": "0624",
       "analysis": "0624_分析.html",
@@ -18,17 +13,22 @@
     },
     {
       "date": "0622",
-      "analysis": null,
+      "analysis": "0622_分析.html",
       "review": "0622_檢討.html"
     },
     {
       "date": "0621",
-      "analysis": "0621_分析.html",
+      "analysis": null,
       "review": "0621_檢討.html"
     },
     {
       "date": "0620",
       "analysis": "0620_分析.html",
+      "review": null
+    },
+    {
+      "date": "0619",
+      "analysis": "0619_分析.html",
       "review": null
     }
   ]
