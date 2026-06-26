@@ -298,8 +298,9 @@ async function loadRecords() {
     const records = await res.json();
 
     const days = {};
-    for (const f of (records.files || [])) {
-      days[f.date] = { date: f.date, analysis: f.analysis || null, review: f.review || null };
+    for (const f of (records.days || records.files || [])) {
+      const key = f.match_date || f.date;
+      days[key] = { date: key, analysis: f.analysis || null, review: f.review || null };
     }
 
     let data = null;
@@ -319,7 +320,7 @@ async function loadRecords() {
       document.getElementById('s-score').textContent = pct(s.score_correct,s.score_total);
     }
     document.getElementById('header-sub').textContent =
-      (sorted[0] ? `最後分析：${dateDisplay(sorted[0].date)}` : '尚無資料') + '　·　2026 FIFA World Cup';
+      (sorted[0] ? `最後更新：${dateDisplay(sorted[0].date)}` : '尚無資料') + '　·　2026 FIFA World Cup';
 
     if (!sorted.length) { content.innerHTML='<div class="loading">尚無分析資料</div>'; return; }
     content.innerHTML = sorted.map(day => {
