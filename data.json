@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-07-08",
   "stats": {
     "total_matches": 8,
     "win_correct": 7,
@@ -12,6 +12,15 @@
     "score_total": 8
   },
   "days": [
+    {
+      "date": "0708",
+      "matches": [
+        "阿根廷 3-2 埃及",
+        "瑞士 0-0 哥倫比亞（互射12碼4:3）"
+      ],
+      "results": [],
+      "note": "無賽前預測，本日為16強賽後兩場"
+    },
     {
       "date": "0630",
       "matches": [
