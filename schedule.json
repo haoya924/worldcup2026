@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-08 20:05（台灣時間）",
+  "updated": "2026-07-09 20:06（台灣時間）",
   "matches": [
     {
-      "date": "0709",
+      "date": "0710",
       "time": "04:00",
       "time_label": "凌晨",
       "home": "法國",
@@ -16,7 +16,7 @@
       "venue": "Gillette Stadium, Foxborough"
     },
     {
-      "date": "0710",
+      "date": "0711",
       "time": "03:00",
       "time_label": "凌晨",
       "home": "西班牙",
@@ -30,7 +30,7 @@
       "venue": "SoFi Stadium, Inglewood"
     },
     {
-      "date": "0711",
+      "date": "0712",
       "time": "05:00",
       "time_label": "清晨",
       "home": "挪威",
@@ -44,7 +44,7 @@
       "venue": "Hard Rock Stadium, Miami Gardens"
     },
     {
-      "date": "0711",
+      "date": "0712",
       "time": "09:00",
       "time_label": "上午",
       "home": "阿根廷",
