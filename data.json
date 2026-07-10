@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "stats": {
     "total_matches": 8,
     "win_correct": 7,
@@ -12,6 +12,13 @@
     "score_total": 8
   },
   "days": [
+    {
+      "date": "0711",
+      "matches": [
+        "西班牙 vs 比利時"
+      ],
+      "results": []
+    },
     {
       "date": "0710",
       "matches": [
