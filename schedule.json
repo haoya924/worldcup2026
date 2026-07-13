@@ -1,47 +1,33 @@
 {
-  "updated": "2026-07-10 20:13（台灣時間）",
+  "updated": "2026-07-13 20:06（台灣時間）",
   "matches": [
     {
-      "date": "0711",
+      "date": "0715",
       "time": "03:00",
       "time_label": "凌晨",
-      "home": "西班牙",
-      "home_flag": "🇪🇸",
-      "home_record": "4-1-0",
-      "away": "比利時",
-      "away_flag": "🇧🇪",
-      "away_record": "3-2-0",
-      "group": "8強",
-      "stage": "淘汰賽·8強",
-      "venue": "SoFi Stadium, Inglewood"
+      "home": "法國",
+      "home_flag": "🇫🇷",
+      "home_record": "6-0-0",
+      "away": "西班牙",
+      "away_flag": "🇪🇸",
+      "away_record": "5-1-0",
+      "group": "4強",
+      "stage": "淘汰賽·準決賽",
+      "venue": "AT&T Stadium, Arlington, Texas"
     },
     {
-      "date": "0712",
-      "time": "05:00",
-      "time_label": "清晨",
-      "home": "挪威",
-      "home_flag": "🇳🇴",
-      "home_record": "4-0-1",
-      "away": "英格蘭",
-      "away_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "away_record": "4-1-0",
-      "group": "8強",
-      "stage": "淘汰賽·8強",
-      "venue": "Hard Rock Stadium, Miami Gardens"
-    },
-    {
-      "date": "0712",
-      "time": "09:00",
-      "time_label": "上午",
-      "home": "阿根廷",
-      "home_flag": "🇦🇷",
-      "home_record": "5-0-0",
-      "away": "瑞士",
-      "away_flag": "🇨🇭",
-      "away_record": "4-1-0",
-      "group": "8強",
-      "stage": "淘汰賽·8強",
-      "venue": "Arrowhead Stadium, Kansas City"
+      "date": "0716",
+      "time": "03:00",
+      "time_label": "凌晨",
+      "home": "英格蘭",
+      "home_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "home_record": "5-1-0",
+      "away": "阿根廷",
+      "away_flag": "🇦🇷",
+      "away_record": "6-0-0",
+      "group": "4強",
+      "stage": "淘汰賽·準決賽",
+      "venue": "Mercedes-Benz Stadium, Atlanta"
     }
   ]
 }
