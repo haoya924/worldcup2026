@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13 20:06（台灣時間）",
+  "updated": "2026-07-14 20:06（台灣時間）",
   "matches": [
     {
       "date": "0715",
@@ -28,6 +28,20 @@
       "group": "4強",
       "stage": "淘汰賽·準決賽",
       "venue": "Mercedes-Benz Stadium, Atlanta"
+    },
+    {
+      "date": "0719",
+      "time": "03:00",
+      "time_label": "凌晨",
+      "home": "決賽隊伍A",
+      "home_flag": "🏆",
+      "home_record": "待定",
+      "away": "決賽隊伍B",
+      "away_flag": "🏆",
+      "away_record": "待定",
+      "group": "決賽",
+      "stage": "淘汰賽·決賽",
+      "venue": "MetLife Stadium, East Rutherford, New Jersey"
     }
   ]
 }
