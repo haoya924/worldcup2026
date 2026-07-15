@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-15",
   "stats": {
-    "total_matches": 8,
+    "total_matches": 9,
     "win_correct": 7,
-    "win_total": 8,
-    "ou_correct": 4,
-    "ou_total": 8,
-    "btts_correct": 4,
-    "btts_total": 8,
+    "win_total": 9,
+    "ou_correct": 5,
+    "ou_total": 9,
+    "btts_correct": 5,
+    "btts_total": 9,
     "score_correct": 4,
-    "score_total": 8
+    "score_total": 9
   },
   "days": [
     {
@@ -22,9 +22,17 @@
     {
       "date": "0715",
       "matches": [
-        "法國 vs 西班牙"
+        "法國 vs 西班牙（準決賽）"
       ],
-      "results": []
+      "results": [
+        {
+          "match": "法國 0-2 西班牙（準決賽）",
+          "win_correct": false,
+          "ou_correct": true,
+          "btts_correct": true,
+          "score_correct": false
+        }
+      ]
     },
     {
       "date": "0713",
