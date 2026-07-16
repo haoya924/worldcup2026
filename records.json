@@ -2,6 +2,12 @@
   "updated": "2026-07-16",
   "days": [
     {
+      "match_date": "0717",
+      "analysis": null,
+      "review": null,
+      "note": "休息日，無比賽"
+    },
+    {
       "match_date": "0716",
       "analysis": "0715_分析.html",
       "review": "0716_檢討.html"

@@ -1,20 +1,6 @@
 {
-  "updated": "2026-07-15 20:05（台灣時間）",
+  "updated": "2026-07-16 20:07（台灣時間）",
   "matches": [
-    {
-      "date": "0716",
-      "time": "03:00",
-      "time_label": "凌晨",
-      "home": "英格蘭",
-      "home_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "home_record": "5-1-0",
-      "away": "阿根廷",
-      "away_flag": "🇦🇷",
-      "away_record": "6-0-0",
-      "group": "4強",
-      "stage": "淘汰賽·準決賽",
-      "venue": "Mercedes-Benz Stadium, Atlanta"
-    },
     {
       "date": "0719",
       "time": "05:00",
@@ -22,12 +8,12 @@
       "home": "法國",
       "home_flag": "🇫🇷",
       "home_record": "6-0-1",
-      "away": "英格蘭／阿根廷（準決賽輸者）",
-      "away_flag": "🏆",
-      "away_record": "待定",
+      "away": "英格蘭",
+      "away_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "away_record": "5-1-1",
       "group": "季軍賽",
       "stage": "淘汰賽·季軍賽",
-      "venue": "Hard Rock Stadium, Miami"
+      "venue": "Hard Rock Stadium, Miami Gardens"
     },
     {
       "date": "0720",
@@ -35,10 +21,10 @@
       "time_label": "凌晨",
       "home": "西班牙",
       "home_flag": "🇪🇸",
-      "home_record": "6-1-0",
-      "away": "英格蘭／阿根廷（準決賽勝者）",
-      "away_flag": "🏆",
-      "away_record": "待定",
+      "home_record": "7-1-0",
+      "away": "阿根廷",
+      "away_flag": "🇦🇷",
+      "away_record": "7-0-0",
       "group": "決賽",
       "stage": "淘汰賽·世界盃決賽",
       "venue": "MetLife Stadium, East Rutherford, New Jersey"
