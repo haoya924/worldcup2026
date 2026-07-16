@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-16",
   "stats": {
-    "total_matches": 9,
+    "total_matches": 10,
     "win_correct": 7,
-    "win_total": 9,
-    "ou_correct": 5,
-    "ou_total": 9,
-    "btts_correct": 5,
-    "btts_total": 9,
-    "score_correct": 4,
-    "score_total": 9
+    "win_total": 10,
+    "ou_correct": 6,
+    "ou_total": 10,
+    "btts_correct": 6,
+    "btts_total": 10,
+    "score_correct": 5,
+    "score_total": 10
   },
   "days": [
     {
@@ -17,7 +17,15 @@
       "matches": [
         "英格蘭 vs 阿根廷（準決賽）"
       ],
-      "results": []
+      "results": [
+        {
+          "match": "阿根廷 2-1 英格蘭（準決賽）",
+          "win_correct": false,
+          "ou_correct": true,
+          "btts_correct": true,
+          "score_correct": true
+        }
+      ]
     },
     {
       "date": "0715",
