@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-17",
   "stats": {
     "total_matches": 10,
     "win_correct": 7,
@@ -12,6 +12,12 @@
     "score_total": 10
   },
   "days": [
+    {
+      "date": "0718",
+      "matches": [],
+      "results": [],
+      "note": "休息日，無比賽（季軍賽 07/19 05:00 法國 vs 英格蘭；決賽 07/20 03:00 西班牙 vs 阿根廷）"
+    },
     {
       "date": "0717",
       "matches": [],

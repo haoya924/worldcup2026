@@ -1,6 +1,12 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-07-17",
   "days": [
+    {
+      "match_date": "0718",
+      "analysis": "0717_分析.html",
+      "review": null,
+      "note": "休息日，無比賽（含07/19季軍賽＋07/20決賽超前預覽）"
+    },
     {
       "match_date": "0717",
       "analysis": null,
