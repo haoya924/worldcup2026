@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-19",
   "stats": {
-    "total_matches": 10,
+    "total_matches": 11,
     "win_correct": 7,
-    "win_total": 10,
-    "ou_correct": 6,
-    "ou_total": 10,
-    "btts_correct": 6,
-    "btts_total": 10,
+    "win_total": 11,
+    "ou_correct": 7,
+    "ou_total": 11,
+    "btts_correct": 7,
+    "btts_total": 11,
     "score_correct": 5,
-    "score_total": 10
+    "score_total": 11
   },
   "days": [
     {
@@ -17,7 +17,15 @@
       "matches": [
         "法國 vs 英格蘭（季軍賽）"
       ],
-      "results": []
+      "results": [
+        {
+          "match": "法國 4-6 英格蘭（季軍賽）",
+          "win_correct": false,
+          "ou_correct": true,
+          "btts_correct": true,
+          "score_correct": false
+        }
+      ]
     },
     {
       "date": "0718",
