@@ -1,20 +1,6 @@
 {
-  "updated": "2026-07-18 20:05（台灣時間）",
+  "updated": "2026-07-19 20:05（台灣時間）",
   "matches": [
-    {
-      "date": "0719",
-      "time": "05:00",
-      "time_label": "清晨",
-      "home": "法國",
-      "home_flag": "🇫🇷",
-      "home_record": "6-0-1",
-      "away": "英格蘭",
-      "away_flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "away_record": "5-1-1",
-      "group": "季軍賽",
-      "stage": "淘汰賽·季軍賽",
-      "venue": "Hard Rock Stadium, Miami Gardens"
-    },
     {
       "date": "0720",
       "time": "03:00",
@@ -26,7 +12,7 @@
       "away_flag": "🇦🇷",
       "away_record": "7-0-0",
       "group": "決賽",
-      "stage": "淘汰賽·世界盃決賽",
+      "stage": "淘汰賽·世界盃決賽 🏆",
       "venue": "MetLife Stadium, East Rutherford, New Jersey"
     }
   ]
