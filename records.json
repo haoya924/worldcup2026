@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-19",
+  "updated": "2026-07-20",
   "days": [
     {
       "match_date": "0720",
       "analysis": "0719_分析.html",
-      "review": null
+      "review": "0720_檢討.html"
     },
     {
       "match_date": "0719",

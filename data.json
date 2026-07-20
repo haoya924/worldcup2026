@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "stats": {
-    "total_matches": 11,
-    "win_correct": 7,
-    "win_total": 11,
-    "ou_correct": 7,
-    "ou_total": 11,
-    "btts_correct": 7,
-    "btts_total": 11,
-    "score_correct": 5,
-    "score_total": 11
+    "total_matches": 12,
+    "win_correct": 8,
+    "win_total": 12,
+    "ou_correct": 8,
+    "ou_total": 12,
+    "btts_correct": 8,
+    "btts_total": 12,
+    "score_correct": 6,
+    "score_total": 12
   },
   "days": [
     {
@@ -17,7 +17,15 @@
       "matches": [
         "西班牙 vs 阿根廷（世界盃決賽）"
       ],
-      "results": []
+      "results": [
+        {
+          "match": "西班牙 1-0 阿根廷（世界盃決賽 AET）",
+          "win_correct": true,
+          "ou_correct": true,
+          "btts_correct": true,
+          "score_correct": true
+        }
+      ]
     },
     {
       "date": "0719",
