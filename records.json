@@ -1,11 +1,10 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-21",
   "days": [
     {
       "match_date": "0721",
       "analysis": null,
-      "review": null,
-      "note": "🏆 世界盃已結束，無賽事，無分析"
+      "review": "0721_檢討.html"
     },
     {
       "match_date": "0720",
