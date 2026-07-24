@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-24",
   "stats": {
     "total_matches": 12,
     "win_correct": 8,
@@ -12,6 +12,12 @@
     "score_total": 12
   },
   "days": [
+    {
+      "date": "0725",
+      "matches": [],
+      "results": [],
+      "note": "🏆 世界盃已結束（07/20 決賽：西班牙 1-0 阿根廷 AET），無賽事"
+    },
     {
       "date": "0724",
       "matches": [],

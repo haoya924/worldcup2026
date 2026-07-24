@@ -1,545 +1,113 @@
 {
-  "updated": "2026-07-23",
+  "updated": "2026-07-24",
   "note": "🏆 2026 FIFA World Cup 最終積分表。小組賽 A～L 組全部結束。決賽結果：🇪🇸 西班牙 1-0 🇦🇷 阿根廷（加時賽，Ferran Torres 106'），西班牙奪得 2026 世界盃冠軍！",
   "groups": [
     {
       "name": "A組",
       "teams": [
-        {
-          "flag": "🇲🇽",
-          "name": "墨西哥",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "gd": "+6",
-          "pts": 9
-        },
-        {
-          "flag": "🇿🇦",
-          "name": "南非",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "-1",
-          "pts": 4
-        },
-        {
-          "flag": "🇰🇷",
-          "name": "南韓",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gd": "-1",
-          "pts": 3
-        },
-        {
-          "flag": "🇨🇿",
-          "name": "捷克",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gd": "-4",
-          "pts": 1
-        }
+        {"flag": "🇲🇽", "name": "墨西哥", "played": 3, "won": 3, "drawn": 0, "lost": 0, "gd": "+6", "pts": 9},
+        {"flag": "🇿🇦", "name": "南非", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "-1", "pts": 4},
+        {"flag": "🇰🇷", "name": "南韓", "played": 3, "won": 1, "drawn": 0, "lost": 2, "gd": "-1", "pts": 3},
+        {"flag": "🇨🇿", "name": "捷克", "played": 3, "won": 0, "drawn": 1, "lost": 2, "gd": "-4", "pts": 1}
       ]
     },
     {
       "name": "B組",
       "teams": [
-        {
-          "flag": "🇨🇭",
-          "name": "瑞士",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gd": "+4",
-          "pts": 7
-        },
-        {
-          "flag": "🇨🇦",
-          "name": "加拿大",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "+5",
-          "pts": 4
-        },
-        {
-          "flag": "🇧🇦",
-          "name": "波赫",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "-1",
-          "pts": 4
-        },
-        {
-          "flag": "🇶🇦",
-          "name": "卡達",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gd": "-8",
-          "pts": 1
-        }
+        {"flag": "🇨🇭", "name": "瑞士", "played": 3, "won": 2, "drawn": 1, "lost": 0, "gd": "+4", "pts": 7},
+        {"flag": "🇨🇦", "name": "加拿大", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "+5", "pts": 4},
+        {"flag": "🇧🇦", "name": "波赫", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "-1", "pts": 4},
+        {"flag": "🇶🇦", "name": "卡達", "played": 3, "won": 0, "drawn": 1, "lost": 2, "gd": "-8", "pts": 1}
       ]
     },
     {
       "name": "C組",
       "teams": [
-        {
-          "flag": "🇧🇷",
-          "name": "巴西",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gd": "+6",
-          "pts": 7
-        },
-        {
-          "flag": "🇲🇦",
-          "name": "摩洛哥",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gd": "+3",
-          "pts": 7
-        },
-        {
-          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-          "name": "蘇格蘭",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gd": "-3",
-          "pts": 3
-        },
-        {
-          "flag": "🇭🇹",
-          "name": "海地",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gd": "-6",
-          "pts": 0
-        }
+        {"flag": "🇧🇷", "name": "巴西", "played": 3, "won": 2, "drawn": 1, "lost": 0, "gd": "+6", "pts": 7},
+        {"flag": "🇲🇦", "name": "摩洛哥", "played": 3, "won": 2, "drawn": 1, "lost": 0, "gd": "+3", "pts": 7},
+        {"flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "name": "蘇格蘭", "played": 3, "won": 1, "drawn": 0, "lost": 2, "gd": "-3", "pts": 3},
+        {"flag": "🇭🇹", "name": "海地", "played": 3, "won": 0, "drawn": 0, "lost": 3, "gd": "-6", "pts": 0}
       ]
     },
     {
       "name": "D組",
       "teams": [
-        {
-          "flag": "🇺🇸",
-          "name": "美國",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gd": "+4",
-          "pts": 6
-        },
-        {
-          "flag": "🇦🇺",
-          "name": "澳洲",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "0",
-          "pts": 4
-        },
-        {
-          "flag": "🇵🇾",
-          "name": "巴拉圭",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "-1",
-          "pts": 4
-        },
-        {
-          "flag": "🇹🇷",
-          "name": "土耳其",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gd": "-3",
-          "pts": 3
-        }
+        {"flag": "🇺🇸", "name": "美國", "played": 3, "won": 2, "drawn": 0, "lost": 1, "gd": "+4", "pts": 6},
+        {"flag": "🇦🇺", "name": "澳洲", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "0", "pts": 4},
+        {"flag": "🇵🇾", "name": "巴拉圭", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "-1", "pts": 4},
+        {"flag": "🇹🇷", "name": "土耳其", "played": 3, "won": 1, "drawn": 0, "lost": 2, "gd": "-3", "pts": 3}
       ]
     },
     {
       "name": "E組",
       "teams": [
-        {
-          "flag": "🇩🇪",
-          "name": "德國",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gd": "+6",
-          "pts": 6
-        },
-        {
-          "flag": "🇨🇮",
-          "name": "象牙海岸",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gd": "+2",
-          "pts": 6
-        },
-        {
-          "flag": "🇪🇨",
-          "name": "厄瓜多",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "0",
-          "pts": 4
-        },
-        {
-          "flag": "🇨🇼",
-          "name": "庫拉索",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gd": "-8",
-          "pts": 1
-        }
+        {"flag": "🇩🇪", "name": "德國", "played": 3, "won": 2, "drawn": 0, "lost": 1, "gd": "+6", "pts": 6},
+        {"flag": "🇨🇮", "name": "象牙海岸", "played": 3, "won": 2, "drawn": 0, "lost": 1, "gd": "+2", "pts": 6},
+        {"flag": "🇪🇨", "name": "厄瓜多", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "0", "pts": 4},
+        {"flag": "🇨🇼", "name": "庫拉索", "played": 3, "won": 0, "drawn": 1, "lost": 2, "gd": "-8", "pts": 1}
       ]
     },
     {
       "name": "F組",
       "teams": [
-        {
-          "flag": "🇳🇱",
-          "name": "荷蘭",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gd": "+6",
-          "pts": 7
-        },
-        {
-          "flag": "🇯🇵",
-          "name": "日本",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gd": "+4",
-          "pts": 5
-        },
-        {
-          "flag": "🇸🇪",
-          "name": "瑞典",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "0",
-          "pts": 4
-        },
-        {
-          "flag": "🇹🇳",
-          "name": "突尼西亞",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gd": "-10",
-          "pts": 0
-        }
+        {"flag": "🇳🇱", "name": "荷蘭", "played": 3, "won": 2, "drawn": 1, "lost": 0, "gd": "+6", "pts": 7},
+        {"flag": "🇯🇵", "name": "日本", "played": 3, "won": 1, "drawn": 2, "lost": 0, "gd": "+4", "pts": 5},
+        {"flag": "🇸🇪", "name": "瑞典", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "0", "pts": 4},
+        {"flag": "🇹🇳", "name": "突尼西亞", "played": 3, "won": 0, "drawn": 0, "lost": 3, "gd": "-10", "pts": 0}
       ]
     },
     {
       "name": "G組",
       "teams": [
-        {
-          "flag": "🇧🇪",
-          "name": "比利時",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gd": "+4",
-          "pts": 5
-        },
-        {
-          "flag": "🇪🇬",
-          "name": "埃及",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gd": "+2",
-          "pts": 5
-        },
-        {
-          "flag": "🇮🇷",
-          "name": "伊朗",
-          "played": 3,
-          "won": 0,
-          "drawn": 3,
-          "lost": 0,
-          "gd": "0",
-          "pts": 3
-        },
-        {
-          "flag": "🇳🇿",
-          "name": "紐西蘭",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gd": "-6",
-          "pts": 1
-        }
+        {"flag": "🇧🇪", "name": "比利時", "played": 3, "won": 1, "drawn": 2, "lost": 0, "gd": "+4", "pts": 5},
+        {"flag": "🇪🇬", "name": "埃及", "played": 3, "won": 1, "drawn": 2, "lost": 0, "gd": "+2", "pts": 5},
+        {"flag": "🇮🇷", "name": "伊朗", "played": 3, "won": 0, "drawn": 3, "lost": 0, "gd": "0", "pts": 3},
+        {"flag": "🇳🇿", "name": "紐西蘭", "played": 3, "won": 0, "drawn": 1, "lost": 2, "gd": "-6", "pts": 1}
       ]
     },
     {
       "name": "H組",
       "teams": [
-        {
-          "flag": "🇪🇸",
-          "name": "西班牙",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gd": "+5",
-          "pts": 7
-        },
-        {
-          "flag": "🇨🇻",
-          "name": "維德角",
-          "played": 3,
-          "won": 0,
-          "drawn": 3,
-          "lost": 0,
-          "gd": "0",
-          "pts": 3
-        },
-        {
-          "flag": "🇺🇾",
-          "name": "烏拉圭",
-          "played": 3,
-          "won": 0,
-          "drawn": 2,
-          "lost": 1,
-          "gd": "-1",
-          "pts": 2
-        },
-        {
-          "flag": "🇸🇦",
-          "name": "沙烏地阿拉伯",
-          "played": 3,
-          "won": 0,
-          "drawn": 2,
-          "lost": 1,
-          "gd": "-4",
-          "pts": 2
-        }
+        {"flag": "🇪🇸", "name": "西班牙", "played": 3, "won": 2, "drawn": 1, "lost": 0, "gd": "+5", "pts": 7},
+        {"flag": "🇨🇻", "name": "維德角", "played": 3, "won": 0, "drawn": 3, "lost": 0, "gd": "0", "pts": 3},
+        {"flag": "🇺🇾", "name": "烏拉圭", "played": 3, "won": 0, "drawn": 2, "lost": 1, "gd": "-1", "pts": 2},
+        {"flag": "🇸🇦", "name": "沙烏地阿拉伯", "played": 3, "won": 0, "drawn": 2, "lost": 1, "gd": "-4", "pts": 2}
       ]
     },
     {
       "name": "I組",
       "teams": [
-        {
-          "flag": "🇫🇷",
-          "name": "法國",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "gd": "+8",
-          "pts": 9
-        },
-        {
-          "flag": "🇳🇴",
-          "name": "挪威",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gd": "+1",
-          "pts": 6
-        },
-        {
-          "flag": "🇸🇳",
-          "name": "塞內加爾",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gd": "+2",
-          "pts": 3
-        },
-        {
-          "flag": "🇮🇶",
-          "name": "伊拉克",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gd": "-11",
-          "pts": 0
-        }
+        {"flag": "🇫🇷", "name": "法國", "played": 3, "won": 3, "drawn": 0, "lost": 0, "gd": "+8", "pts": 9},
+        {"flag": "🇳🇴", "name": "挪威", "played": 3, "won": 2, "drawn": 0, "lost": 1, "gd": "+1", "pts": 6},
+        {"flag": "🇸🇳", "name": "塞內加爾", "played": 3, "won": 1, "drawn": 0, "lost": 2, "gd": "+2", "pts": 3},
+        {"flag": "🇮🇶", "name": "伊拉克", "played": 3, "won": 0, "drawn": 0, "lost": 3, "gd": "-11", "pts": 0}
       ]
     },
     {
       "name": "J組",
       "teams": [
-        {
-          "flag": "🇦🇷",
-          "name": "阿根廷",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "gd": "+7",
-          "pts": 9
-        },
-        {
-          "flag": "🇦🇹",
-          "name": "奧地利",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "0",
-          "pts": 4
-        },
-        {
-          "flag": "🇩🇿",
-          "name": "阿爾及利亞",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "-2",
-          "pts": 4
-        },
-        {
-          "flag": "🇯🇴",
-          "name": "約旦",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gd": "-5",
-          "pts": 0
-        }
+        {"flag": "🇦🇷", "name": "阿根廷", "played": 3, "won": 3, "drawn": 0, "lost": 0, "gd": "+7", "pts": 9},
+        {"flag": "🇦🇹", "name": "奧地利", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "0", "pts": 4},
+        {"flag": "🇩🇿", "name": "阿爾及利亞", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "-2", "pts": 4},
+        {"flag": "🇯🇴", "name": "約旦", "played": 3, "won": 0, "drawn": 0, "lost": 3, "gd": "-5", "pts": 0}
       ]
     },
     {
       "name": "K組",
       "teams": [
-        {
-          "flag": "🇨🇴",
-          "name": "哥倫比亞",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gd": "+3",
-          "pts": 7
-        },
-        {
-          "flag": "🇵🇹",
-          "name": "葡萄牙",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gd": "+5",
-          "pts": 5
-        },
-        {
-          "flag": "🇨🇩",
-          "name": "剛果民主共和國",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "+1",
-          "pts": 4
-        },
-        {
-          "flag": "🇺🇿",
-          "name": "烏茲別克",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gd": "-9",
-          "pts": 0
-        }
+        {"flag": "🇨🇴", "name": "哥倫比亞", "played": 3, "won": 2, "drawn": 1, "lost": 0, "gd": "+3", "pts": 7},
+        {"flag": "🇵🇹", "name": "葡萄牙", "played": 3, "won": 1, "drawn": 2, "lost": 0, "gd": "+5", "pts": 5},
+        {"flag": "🇨🇩", "name": "剛果民主共和國", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "+1", "pts": 4},
+        {"flag": "🇺🇿", "name": "烏茲別克", "played": 3, "won": 0, "drawn": 0, "lost": 3, "gd": "-9", "pts": 0}
       ]
     },
     {
       "name": "L組",
       "teams": [
-        {
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-          "name": "英格蘭",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gd": "+4",
-          "pts": 7
-        },
-        {
-          "flag": "🇭🇷",
-          "name": "克羅埃西亞",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gd": "0",
-          "pts": 6
-        },
-        {
-          "flag": "🇬🇭",
-          "name": "迦納",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gd": "0",
-          "pts": 4
-        },
-        {
-          "flag": "🇵🇦",
-          "name": "巴拿馬",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gd": "-4",
-          "pts": 0
-        }
+        {"flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "name": "英格蘭", "played": 3, "won": 2, "drawn": 1, "lost": 0, "gd": "+4", "pts": 7},
+        {"flag": "🇭🇷", "name": "克羅埃西亞", "played": 3, "won": 2, "drawn": 0, "lost": 1, "gd": "0", "pts": 6},
+        {"flag": "🇬🇭", "name": "迦納", "played": 3, "won": 1, "drawn": 1, "lost": 1, "gd": "0", "pts": 4},
+        {"flag": "🇵🇦", "name": "巴拿馬", "played": 3, "won": 0, "drawn": 0, "lost": 3, "gd": "-4", "pts": 0}
       ]
     }
   ]
